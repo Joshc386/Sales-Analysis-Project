@@ -9,3 +9,4 @@ The overall aim is to find insights that will allow for management to make bette
 The first question/project aim is to **assess whether more sales drives profit**, the second project question/aim is to **determine whether stronger months are driven predominantly by order volume or order size** and the final question/aim is to **examine performance across sales reps and uncover why some over- and under-perform**.
 
 ## Do more sales mean larger profits?
+What this question is really asking is that per unit, does profit increase when the number of sales increases? We can see clearly that overall profit rises as overall revenue rises from the charts below.
