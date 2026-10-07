@@ -37,4 +37,4 @@ These 2 charts are very revealing. There is a very clear relationship between av
 ## Are stronger months determined by order volume or order size?
 
 Firstly, we need to determine what a 'stronger' and a 'weaker' month actually are as this is completely arbitrary. I will compare each month to one another rather than an arbitrary baseline number and use profitability as the metric to gauge strength. For this I will define 3 categories: average, above average and below average. Categories boundaries are defined using the following formulae:
-Average = $\mu$, Above/Below Average: = $\mu \plusminus \sigma$
+Average = $\mu$, Above/Below Average: = $\mu \pm \sigma$
