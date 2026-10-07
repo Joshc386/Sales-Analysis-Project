@@ -29,3 +29,12 @@ What I think to look at next that could provide key insights is the average prof
   <img src="AverageOrderValuePerMonthPerYear.png" width="49%" alt="Average Order Value across both years for all months">
   <img src="AvgProfitPerSalePErYear.png" width="49%" alt="Average Profit per Sale across both years for all months">
 </p>
+
+These 2 charts are very revealing. There is a very clear relationship between average profit per sale and average order value. The 2 charts have essentially the exact same shape with lows and highs in the exact same places and even deviations like in July where the average order value drops by 12.3% and the average profit per sale drops by 14%. Months with the largest average order values have the largest profit per sale and months with the lowest order value have the lowest average profit per sale. Calculating the correlation between the average order value and profit per sale across each year there is an almost perfect correlation with a value of 0.997 in 2019 ad 0.995 in 2020 but again, this assumes a linear correlation between the 2 variables which may not be the case but from initial observations the average order value is very clearly one of the main drivers of larger profit.
+
+### Conclusion
+
+## Are stronger months determined by order volume or order size?
+
+Firstly, we need to determine what a 'stronger' and a 'weaker' month actually are as this is completely arbitrary. I will compare each month to one another rather than an arbitrary baseline number and use profitability as the metric to gauge strength. For this I will define 3 categories: average, above average and below average. Categories boundaries are defined using the following formulae:
+Average = $\mu$, Above/Below Average: = $\mu \plusminus \sigma$
