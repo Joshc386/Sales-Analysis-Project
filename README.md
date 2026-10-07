@@ -10,3 +10,8 @@ The first question/project aim is to **assess whether more sales drives profit**
 
 ## Do more sales mean larger profits?
 What this question is really asking is that per unit, does profit increase when the number of sales increases? We can see clearly that overall profit rises as overall revenue rises from the charts below.
+
+<p align="center">
+  <img src="images/MonthlyProfitByYear.png" width="49%" alt="Monthly Profit">
+  <img src="images/MonthlyRevenuePerYear.png" width="49%" alt="Monthly Revenue">
+</p>
