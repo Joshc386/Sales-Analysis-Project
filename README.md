@@ -43,11 +43,10 @@ Order value naturally would be an intriguing point to look at but for the catego
 Looking at customers overall, there are 75 unique customers with an average order size of £113,361.74 across both years and a standard deviation of £22,870.30 which is just over 20% of the average - quite a large spread. The range of average order values £135,828.94 which is quite large and is a potential sign that profitability is largely dependent on the customer (as we established the strong relationship between average order value and average profit). Without going into categories we can see different correlation values below which reveal another insight.
 
 
-| | Mean error | Observed - expected | χ² | bins | p |
-|---|---|---|---|---|---|
-| Home wins | +0.367% | +33.5 | 25.24 | 17 | **0.066** |
-| Draws | +0.232% | +21.2 | 2.92 | 6 | 0.712 |
-| Away wins | −0.600% | −54.7 | 9.94 | 17 | 0.870 |
+| | Orders and Average Order Value | Orders and Average Profit | Average Order Value and Average Profit | |
+|---|---|---|---|---|
+| Overall Customers | +0.367% | +33.5 | 25.24 | 17 | **0.066** |
+| Customers with > 20 orders | +0.232% | +21.2 | 2.92 | 6 | 0.712 |
 
 ### Conclusion
 
