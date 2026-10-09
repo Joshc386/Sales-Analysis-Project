@@ -45,8 +45,8 @@ Looking at customers overall, there are 75 unique customers with an average orde
 
 | | Orders and Average Order Value | Orders and Average Profit | Average Order Value and Average Profit | |
 |---|---|---|---|---|
-| Overall Customers | +0.367% | +33.5 | 25.24 | 17 | **0.066** |
-| Customers with > 20 orders | +0.232% | +21.2 | 2.92 | 6 | 0.712 |
+| Overall Customers | 0.0344 | 0.0190 | 0.9578 |
+| Customers with > 20 orders | 0.3663 | 0.4595 | 0.9370 |
 
 ### Conclusion
 
