@@ -2,7 +2,7 @@
 An analysis in Excel of a sales dataset pulled from Kaggle. The aim of this is to derive key insights that can lead to and influence business decisions through data and visualisations.
 
 # Data Source
-The data is publicly available on Kaggle using the following lik: https://www.kaggle.com/datasets/ronnykym/online-store-sales-data
+The data is publicly available on Kaggle using the following link: https://www.kaggle.com/datasets/ronnykym/online-store-sales-data
 
 # Project Aims
 The overall aim is to find insights that will allow for management to make better decisions and hopefully improve future performance. Doing this requires a direction of course and requires business questions to be answered by this analysis.
@@ -43,8 +43,8 @@ Order value naturally would be an intriguing point to look at but for the catego
 Looking at customers overall, there are 75 unique customers with an average order size of £113,361.74 across both years and a standard deviation of £22,870.30 which is just over 20% of the average - quite a large spread. The range of average order values £135,828.94 which is quite large and is a potential sign that profitability is largely dependent on the customer (as we established the strong relationship between average order value and average profit). Without going into categories we can see different correlation values below which reveal another insight.
 
 
-| | Orders and Average Order Value | Orders and Average Profit | Average Order Value and Average Profit | |
-|---|---|---|
+| | Orders and Average Order Value | Orders and Average Profit | Average Order Value and Average Profit |
+|---|---|---|---|
 | Overall Customers | 0.0344 | 0.0190 | 0.9578 |
 | Customers with > 20 orders | 0.3663 | 0.4595 | 0.9370 |
 
