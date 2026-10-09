@@ -45,10 +45,13 @@ Looking at customers overall, there are 75 unique customers with an average orde
 
 | | Orders and Average Order Value | Orders and Average Profit | Average Order Value and Average Profit |
 |---|---|---|---|
-| Overall Customers | 0.0344 | 0.0190 | 0.9578 |
-| Customers with > 20 orders | 0.3663 | 0.4595 | 0.9370 |
+| **Overall Customers** | 0.0344 | 0.0190 | 0.9578 |
+| **Customers with > 20 orders** | 0.3663 | 0.4595 | 0.9370 |
 
+The relationship between orders and average order value plus orders and average profit appears to get much stronger when the number of orders are over 20 for each customer. There are only 10 of these customers though and 20 was chosen as it equates to roughly 1 order a month across the 2 years and if I chose 24 then only 3 data points would have been present and the value likely would have been very noisy. The discovery hear is not a confirmation but it is an interesting point of investigation in the future to monitor profitability as this is the first and quite a strong sign of order total driving profitability. This is excluding all other variables though, hence why it is an area of future investigation rather than a confirmed relationship. These correlation values assume a linear underlying relationship as well as this correlation can only be meaningfully calculated if the relationship is linear. (maybe try measure non-linearity)
 ### Conclusion
+
+What the data tells us is that it is quite unlikely that more profits equates to more profits. From what we have seen the factor that potentially drives larger profits the most is the order value. The data is quite restrictive in terms of what it can actually allow us to confidently conclude here due to the small sample sizes and the lack of data granularity but it does flag areas of future, deeper investigation with the right data.
 
 ## Are stronger months determined by order volume or order size?
 
