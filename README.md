@@ -1,7 +1,7 @@
 # Sales-Analysis-Project
 An analysis in Excel of a sales dataset pulled from Kaggle. The aim of this is to derive key insights that can lead to and influence business decisions through data and visualisations.
 
-# Data Location
+# Data Source
 The data is publicly available on Kaggle using the following lik: https://www.kaggle.com/datasets/ronnykym/online-store-sales-data
 
 # Project Aims
@@ -39,9 +39,16 @@ These 2 charts are very revealing. There is a very clear relationship between av
 2 separate plots were used here rather than a single plot as I believe it to be clearer than trying to overlay both plots oto one another.
 
 Now we have to look at the distribution of category sales across the 2 years as if more higher-profit category products are sold in one month this may be why certain months are more/less profitable than others. Looking at the least profitable months in 2019 first, starting with February. The product categories that are the least profitable by quite a large margin (over £1400 less profit then the next best category roughly 8% difference) are Electronics and Games. We can see from figure 5 that February is one of the lowest profit months per sale and this is likely due to the fact that over a third of all sales in 2019 are either Electronics or Games products. They represent 20% of the available product categories and they represent a disproportionate amount of the total sales in February. It is unclear whether the lower profitability per sale is due to overall performance by all sales reps in certain categories, whether there were more hidden fees or if products in these categories are just more difficult to sell so sales reps have to compromise more. Looking at the most profitable months in 2019 (December and June) their total sales are less than 10% in the most profitable categories (Accessories and Other) and for June less than 5% of sales are in the most profitable categories. The least most profitable categories makeup around 20% for both of these months also. So it is mot overly clear why December and June are as profitable as they are per sale given the category breakdown.
-Order value naturally would be an intriguing point to look at but for the categories I do not think it is a safe road to go down due to the low sample size. There are vast differences month-to-month in average order value for every product category and this could be due to several reasons that are unable to be accurately determined. One possibility that can be computed is the distribution of customers that are placing the orders. Some customers may place larger orders in certain categories or in certain months and this will be looked at below. But, to look assess the average order size for each category for each month is unwise as the sample size is so small and is likely a very noisy data point. With more data this would be a perfectly legitimate avenue to go down.
-Looking at customers, there are 75 unique customers with an average order size of £113,361.74 across both years and a standard deviation of order value of £22,870.30 which is just over 20% of the average - quite a large spread. The range of average order values £135,828.94 which is quite large and is a potential sign that profitability is largely dependent on the customer (as we established the strong relationship between average order value and average profit).  
-XXX
+Order value naturally would be an intriguing point to look at but for the categories I do not think it is a safe road to go down due to the low sample size. There are vast differences month-to-month in average order value for every product category and this could be due to several reasons that are unable to be accurately determined, such as price fluctuations (no price data), customer demand (can be inferred but they may have chosen other competitors for other reasons) or the specific product within the product category varying. This data is not captured and so deeper investigation along these lines would be extremely insightful but a lot of guess work would have to be done here. One possibility that can be computed is the distribution of customers that are placing the orders. Some customers may place larger orders in certain categories or in certain months and this may uncover the reasons for larger order values and profits. But, to confidently say that a customer's order size is regularly x in this category is not what can be done for most customers again due to the small sample size. There are several customers though with larger sample sizes hat can be analysed in-depth.
+Looking at customers overall, there are 75 unique customers with an average order size of £113,361.74 across both years and a standard deviation of £22,870.30 which is just over 20% of the average - quite a large spread. The range of average order values £135,828.94 which is quite large and is a potential sign that profitability is largely dependent on the customer (as we established the strong relationship between average order value and average profit). Without going into categories we can see different correlation values below which reveal another insight.
+
+
+| | Mean error | Observed - expected | χ² | bins | p |
+|---|---|---|---|---|---|
+| Home wins | +0.367% | +33.5 | 25.24 | 17 | **0.066** |
+| Draws | +0.232% | +21.2 | 2.92 | 6 | 0.712 |
+| Away wins | −0.600% | −54.7 | 9.94 | 17 | 0.870 |
+
 ### Conclusion
 
 ## Are stronger months determined by order volume or order size?
