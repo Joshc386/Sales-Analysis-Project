@@ -18,7 +18,7 @@ What this question is really asking is that per unit, does profit increase when 
 
 <p align="center">
   <img src="MonthlyProfitPerYear.png" width="49%" alt="Figure 1: Monthly Profit">
-  <img src="MonthlyRevenuePerYear.png" width="49%" alt="Figure 2:Monthly Revenue">
+  <img src="MonthlyRevenuePerYear.png" width="49%" alt="Figure 2: Monthly Revenue">
 </p>
 Unsurprisingly, it is very clear that as total revenue rises for each month so does total profits. Now, if we look at the total sales for each month for 2019 and 2020 we can see if the number of sales effects tota profits.
 
@@ -57,11 +57,15 @@ What the data tells us is that it is quite unlikely that more profits equates to
 
 Firstly, we need to determine what a 'stronger' and a 'weaker' month actually are as this is completely arbitrary. I will compare each month to one another rather than an arbitrary baseline number and use profitability as the metric to gauge strength. For this I will define 3 categories: average, above average and below average. Categories boundaries are defined using the following formulae:
 Average = $\mu$, Above/Below Average: = $\mu \pm \sigma$.
-These will be different for each year. We will look at above and below average months only. In 2019 June and December are above average with March being below average then in 2020 June is above average and February is below average. If we refer back to figure 4 and 5 if we look at 2019 first we can see that the lowest profit per sale month was March and the highest were June and December. In 2020 the lowest month was February and the largest month was actually December with June shortly behind. These charts are strong evidence for profit per sale to be a main indicator of performance but it is not the only one, hence the discrepancy between best performing months in 2020. Number of sales therefore does play a smaller role in determining strength as in 2020 June's total sales exceeded December's by just over 30% which tipped June into the 'Above Average' category.
+These will be different for each year. We will look at above and below average months only. In 2019 June and December are above average with March being below average then in 2020 June is above average and February is below average. If we refer back to figure 4 and 5 if we look at 2019 first we can see that the lowest profit per sale month was March and the highest were June and December. In 2020 the lowest month was February and the largest month was actually December with June close behind. These charts are strong evidence for profit per sale to be a main indicator of performance but it is not the only one, hence the discrepancy between best performing months in 2020. Number of sales therefore does play a smaller role in determining strength as in 2020 June's total sales exceeded December's by just over 30% which tipped June into the 'Above Average' category.
 
+<p align="center">
+  <img src="DiffInProfitShareAndSalesShare.png" width="49%" alt="Figure 6: Difference in share of profits and sales">
+</p>
 
+This chart above shows the difference between the share of profits and share of sales across all 24 months. So if month X accounted for 5% of overall sales and 4% of profits this would be 4-5 = -1 percentage point. What I have regarded as a strong month in this context is if this metric is > 0 due to the fact that for these months the sales disproportionately accounted for a portion of the profits. In theory if everything was equal, 5% of sales should represent 5% of profits but as the visual above shows this not the case. In December 2019 we can see that profits make up 3.58 percentage points more than the sales make up overall. This is the largest difference out of any month. Then in June 2019, June 2020, July 2019 and December 2020 we see an over 1 percentage point larger representation of profits than sales. If we look at all of these specific months in figures 4 and 5 we can see the same months have the largest order values and profits per sale. Then looking at figure 3 we can see the relative sales totals of each of these months and their is no clear relationship between figure 3 and 6 like there is with 4+5 and 6. So this is a strong indication that strong months are driven largely by profits per sale and the average order size.
 
-
+Product category sales across each month will also affect performance in a month as if more products from a more profitable category are sold then this will of course be a key reason for better performance. Some months in some product categories have very few orders or none at all so the months with very few are likely to produce some noisy results. Of course overall the averages for each month will be the same as if we looked at monthly average through any other lens but the key is to see if any poor or good months are mainly driven by one or very few categories.
 
 # Assumptions
 For determining the strength of months there were no targets present within the dataset so I had to assume what would define a stronger and weaker months using data, making each month's performance relative to one another rather than relative to monthly targets. This slightly weakens the analysis as in reality targets for each month would be set that usually differ month-to-month based on varying goals and needs of the business.
