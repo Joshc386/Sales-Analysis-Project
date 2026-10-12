@@ -85,6 +85,20 @@ The number of sales reps varies greatly as figure 7 shows with some reps having 
   <img src="TotalProfitPerRep.png" width="49%" alt="Figure 8: Total Profit for each rep">
 </p>
 
+Figure 8 mirrors the shape in figure 7 and highlights the already-established relationship between number of sales and the total profit. What needs to be looked at is the average profit per sales rep.
+
+<p align="center">
+  <img src="AvgProfPerRep.png" width="49%" alt="Figure 9: Average Profit per Sales Rep across all sales">
+</p>
+Figure 9 shows the average profit for every sales rep, including those with very few sales. What we can see is the number of sales does matter to a degree in determining the average profit per sale but the plot looks noisy. The correlation value between the average profit and the number of sales for each sales rep produces a value of 0.44 (rounded) which shows a somewhat strong positive correlation between the 2 variables. But looking at the chart this does not appear to be the case immediately. For the larger average profit values, which I will say are over £20,000, there are 7 sales reps and they have 15, 23, 53, 22, 21, 38 and 38 sales respectively. Looking at these values and comparing to the average sales per rep of 28 there does not really appear to be a pattern here. Assessing sales reps with lesser average profit values, defined as under £15,000 here, there are 3 sales reps that have 6, 5 and 12 sales respectively. This is likely where there is 'more' correlation as these values are quite far below average sales and the average profit for each of these sales reps is low. So from this we can state that at lower number of total sales by reps it is likely that there is a stronger relationship between the average profit made, but the reasons for this are currently unknown but will be looked at by assessing these sales reps individually. 
+Using the data present it is possible to establish an equation to predict future sales rep performance. 
+
+<p align="center">
+  <img src="SalesAvgProfPerSaleSRep.png" width="49%" alt="Figure 10: Relationship between Sales Totals and Average Profit">
+</p>
+
+There are a few interesting points to note. Firstly, I chose logarithmic relationship due to the fact that it fit the data points far better than a linear relationship did and the specific reason for this is the data point highlighted in red. I labeled this an outlier simply because it is quite far from every other point in the plot and is roughly 35% below the next lowest point. Exclusion of this is invalid due to the fact that this is not a measurement but the data produced by a sales rep. If it was measuring something, say a distance, and this plot surfaced then the red point is perfectly acceptable to remove and discount. XXX
+
 # Assumptions
 For determining the strength of months there were no targets present within the dataset so I had to assume what would define a stronger and weaker months using data, making each month's performance relative to one another rather than relative to monthly targets. This slightly weakens the analysis as in reality targets for each month would be set that usually differ month-to-month based on varying goals and needs of the business.
 
