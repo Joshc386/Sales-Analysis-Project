@@ -79,7 +79,12 @@ There are 35 distinct sales reps which are spread across 10 different managers a
   <img src="SalesPerSalesRep.png" width="49%" alt="Figure 7: Number of sales for each Sales Rep across 2019 and 2020">
 </p>
 
-The number of sales reps varies greatly as figure 7 shows with some reps having less than 10 sales and others exceeding 50, hence why we are looking at aggregate figures to properly assess performance. 
+The number of sales reps varies greatly as figure 7 shows with some reps having less than 10 sales and others exceeding 50, hence why we are looking at aggregate figures to properly assess performance as stated above. The individuals with lower total sales can stil be assessed but it will not be a true reflection without more granular data.
+
+<p align="center">
+  <img src="TotalProfitPerRep.png" width="49%" alt="Figure 8: Total Profit for each rep">
+</p>
+
 # Assumptions
 For determining the strength of months there were no targets present within the dataset so I had to assume what would define a stronger and weaker months using data, making each month's performance relative to one another rather than relative to monthly targets. This slightly weakens the analysis as in reality targets for each month would be set that usually differ month-to-month based on varying goals and needs of the business.
 
