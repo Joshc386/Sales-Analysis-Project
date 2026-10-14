@@ -18,12 +18,12 @@ What this question is really asking is that per unit, does profit increase as th
 
 <p align="center">
   <img src="Images/MonthlyProfitPerYear.png" width="49%" alt="Figure 1: Monthly Profit">
-  <img src="MonthlyRevenuePerYear.png" width="49%" alt="Figure 2: Monthly Revenue">
+  <img src="Images/MonthlyRevenuePerYear.png" width="49%" alt="Figure 2: Monthly Revenue">
 </p>
 Unsurprisingly, it is very clear that as total revenue rises for each month so does total profits. Now, if we look at the total sales for each month for 2019 and 2020 we can see if the number of sales effects tota profits.
 
 <p align="center">
-  <img src="MonthlySalesByYear.png" width="49%" alt="Figure 3: Total sales for each month across 2019 and 2020">
+  <img src="Images/MonthlySalesByYear.png" width="49%" alt="Figure 3: Total sales for each month across 2019 and 2020">
 </p>
 
 So assessing this by itself, we can see that total monthly sales do not vary greatly. Looking at monthly totals across both years the range of total sales is 23, the average is 83 and the standard deviation is 8 sales so not much spread overall. For 2019 the range is 18, average is 41 and the standard deviation is 5 sales then for 2020 the range is 24, average is 42 and standard deviation is 8 sales also so monthly differences are larger in 2020 but across all of the data it is quite 'compact'. Looking at the chart now as well these statistics are clearly reflected: bars in each year look quite similar in size and there are no real outliers. When we overlay this with the monthly profit chart and the monthly revenue chart we can see that there is a clear difference in shape. Revenue and profits clearly spike in June and December but looking at sales in these months they can be interpreted as 'normal' months. There is more of a relationship with lows in the monthly profit chart and sales as months with the lowest number of sales but still not a clear, strong relationship. The correlation value between monthly sales and monthly profit overall is quite weak at 0.14 but for the individual years the correlation is somewhat strong at 0.45 for 2019 and 0.37 for 2020. This of course assumes a linear relationship so this is not entirely representative of the relationship but it gives a potential insight. So the idea that total sales drives profits is slightly weakened here.
@@ -31,8 +31,8 @@ So assessing this by itself, we can see that total monthly sales do not vary gre
 What I think to look at next that could provide key insights is the average profit per order as well as the average order size so we completely isolate the number of sales and see if there is any relationship on a per-sale basis between profit and order value. We have already established total profit and revenue are heavily linked but this was expected.
 
 <p align="center">
-  <img src="AverageOrderValuePerMonthPerYear.png" width="49%" alt="Figure 4: Average Order Value across both years for all months">
-  <img src="AvgProfitPerSalePErYear.png" width="49%" alt="Figure 5: Average Profit per Sale across both years for all months">
+  <img src="Images/AverageOrderValuePerMonthPerYear.png" width="49%" alt="Figure 4: Average Order Value across both years for all months">
+  <img src="Images/AvgProfitPerSalePErYear.png" width="49%" alt="Figure 5: Average Profit per Sale across both years for all months">
 </p>
 
 These 2 charts are very revealing. There is a very clear relationship between average profit per sale and average order value. The 2 charts have essentially the exact same shape with lows and highs in the exact same places and even deviations like in July where the average order value drops by 12.3% and the average profit per sale drops by 14%. Months with the largest average order values have the largest profit per sale and months with the lowest order value have the lowest average profit per sale. Calculating the correlation between the average order value and profit per sale across each year there is an almost perfect correlation with a value of 0.997 in 2019 ad 0.995 in 2020 but again, this assumes a linear correlation between the 2 variables which may not be the case but from initial observations the average order value is very clearly one of the main drivers of larger profit. 
@@ -60,7 +60,7 @@ Average = $\mu$, Above/Below Average: = $\mu \pm \sigma$.
 These will be different for each year. We will look at above and below average months only. In 2019 June and December are above average with March being below average then in 2020 June is above average and February is below average. If we refer back to figure 4 and 5 if we look at 2019 first we can see that the lowest profit per sale month was March and the highest were June and December. In 2020 the lowest month was February and the largest month was actually December with June close behind. These charts are strong evidence for profit per sale to be a main indicator of performance but it is not the only one, hence the discrepancy between best performing months in 2020. Number of sales therefore does play a smaller role in determining strength as in 2020 June's total sales exceeded December's by just over 30% which tipped June into the 'Above Average' category.
 
 <p align="center">
-  <img src="DiffInProfShareAndSalesShare.png" width="49%" alt="Figure 6: Difference in share of profits and sales">
+  <img src="Images/DiffInProfShareAndSalesShare.png" width="49%" alt="Figure 6: Difference in share of profits and sales">
 </p>
 
 This chart above shows the difference between the share of profits and share of sales across all 24 months. So if month X accounted for 5% of overall sales and 4% of profits this would be 4-5 = -1 percentage point. What I have regarded as a strong month in this context is if this metric is > 0 due to the fact that for these months the sales disproportionately accounted for a portion of the profits. In theory if everything was equal, 5% of sales should represent 5% of profits but as the visual above shows this not the case. In December 2019 we can see that profits make up 3.58 percentage points more than the sales make up overall. This is the largest difference out of any month. Then in June 2019, June 2020, July 2019 and December 2020 we see an over 1 percentage point larger representation of profits than sales. If we look at all of these specific months in figures 4 and 5 we can see the same months have the largest order values and profits per sale. Then looking at figure 3 we can see the relative sales totals of each of these months and their is no clear relationship between figure 3 and 6 like there is with 4+5 and 6. So this is a strong indication that strong months are driven largely by profits per sale and the average order size.
@@ -76,25 +76,25 @@ There are 35 distinct sales reps which are spread across 10 different managers a
 
 
 <p align="center">
-  <img src="SalesPerSalesRep.png" width="49%" alt="Figure 7: Number of sales for each Sales Rep across 2019 and 2020">
+  <img src="Images/SalesPerSalesRep.png" width="49%" alt="Figure 7: Number of sales for each Sales Rep across 2019 and 2020">
 </p>
 
 The number of sales reps varies greatly as figure 7 shows with some reps having less than 10 sales and others exceeding 50, hence why we are looking at aggregate figures to properly assess performance as stated above. The individuals with lower total sales can stil be assessed but it will not be a true reflection without more granular data.
 
 <p align="center">
-  <img src="TotalProfitPerRep.png" width="49%" alt="Figure 8: Total Profit for each rep">
+  <img src="Images/TotalProfitPerRep.png" width="49%" alt="Figure 8: Total Profit for each rep">
 </p>
 
 Figure 8 mirrors the shape in figure 7 and highlights the already-established relationship between number of sales and the total profit. What needs to be looked at is the average profit per sales rep.
 
 <p align="center">
-  <img src="AvgProfPerRep.png" width="49%" alt="Figure 9: Average Profit per Sales Rep across all sales">
+  <img src="Images/AvgProfPerRep.png" width="49%" alt="Figure 9: Average Profit per Sales Rep across all sales">
 </p>
 Figure 9 shows the average profit for every sales rep, including those with very few sales. What we can see is the number of sales does matter to a degree in determining the average profit per sale but the plot looks noisy. The correlation value between the average profit and the number of sales for each sales rep produces a value of 0.44 (rounded) which shows a somewhat strong positive correlation between the 2 variables. But looking at the chart this does not appear to be the case immediately. For the larger average profit values, which I will say are over £20,000, there are 7 sales reps and they have 15, 23, 53, 22, 21, 38 and 38 sales respectively. Looking at these values and comparing to the average sales per rep of 28 there does not really appear to be a pattern here. Assessing sales reps with lesser average profit values, defined as under £15,000 here, there are 3 sales reps that have 6, 5 and 12 sales respectively. This is likely where there is 'more' correlation as these values are quite far below average sales and the average profit for each of these sales reps is low. So from this we can state that at lower number of total sales by reps it is likely that there is a stronger relationship between the average profit made, but the reasons for this are currently unknown but will be looked at by assessing these sales reps individually. 
 Using the data present it is possible to establish an equation to predict future sales rep performance. 
 
 <p align="center">
-  <img src="SalesAvgProfPerSaleSRep.png" width="49%" alt="Figure 10: Relationship between Sales Totals and Average Profit">
+  <img src="Images/SalesAvgProfPerSaleSRep.png" width="49%" alt="Figure 10: Relationship between Sales Totals and Average Profit">
 </p>
 
 There are a few interesting points to note. Firstly, I chose a logarithmic relationship due to the fact that it fit the data points far better than a linear relationship did and the specific reason for this is the data point highlighted in red. I labeled this as typically this would be an outlier as it is quite far from every other point in the plot and is roughly 35% below the next lowest point. Exclusion of this is invalid though due to the fact that this is not a measurement but the data produced by a sales rep. If it was a measurement, say a distance, and this data point surfaced then it would be fine to discount it. The equation of the line is not overly important but the $R^{2}$ value is. This is 0.269 and essentially states that roughly 27% of the observed variation is able to be explained by the equation of the line, showing it to be a poor fit overall but surprisingly this is the best. A linear fit has a value of less than 0.2 and every other fit is far worse than this. The main conclusion to be drawn from this plot is that the relationship between the number of sales and the average profit per sale overall is quite weak but at lower number of sales it is slightly stronger.
