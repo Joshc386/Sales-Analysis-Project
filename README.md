@@ -17,7 +17,7 @@ After summarising the data I began the actual analysis to start answering the bu
 What this question is really asking is that per unit, does profit increase as the number of sales increases? We can see clearly that overall profit rises as overall revenue rises from the charts below.
 
 <p align="center">
-  <img src="MonthlyProfitPerYear.png" width="49%" alt="Figure 1: Monthly Profit">
+  <img src="Images/MonthlyProfitPerYear.png" width="49%" alt="Figure 1: Monthly Profit">
   <img src="MonthlyRevenuePerYear.png" width="49%" alt="Figure 2: Monthly Revenue">
 </p>
 Unsurprisingly, it is very clear that as total revenue rises for each month so does total profits. Now, if we look at the total sales for each month for 2019 and 2020 we can see if the number of sales effects tota profits.
